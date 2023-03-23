@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	overflow: hidden;
+	background-color: #05050a;
+}
+
+.webgl {
+	position: fixed;
+	top: 0;
+	left: 0;
+	outline: none;
+}
+
+.top {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 0;
+	margin-left: auto;
+	margin-right: auto;
+	user-select: none;
+}
+
+.bottom {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	z-index: 0;
+	margin-left: auto;
+	margin-right: auto;
+	user-select: none;
+}
